@@ -21,7 +21,7 @@ export default {
       // uni.navigateTo({
       //   url: '/pages/me/me'
       // })
-      // Vue组件
+      // Vue组
       this.$refs.modalIndex.checkeShow({
         title: '医院公告',
         content: '请求错误',
