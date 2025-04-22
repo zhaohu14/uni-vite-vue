@@ -1,0 +1,62 @@
+.showModal {
+  width: 100%;
+  height: 100vh;
+  background: rgba($color: #000000, $alpha: 0.6);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  .modal {
+    width: 80%;
+    max-height: 60vh;
+    background: #fff;
+    border-radius: 10rpx;
+    margin: 0 auto;
+    padding-top: 30rpx;
+    .title {
+      width: 100%;
+      height: 80rpx;
+      line-height: 80rpx;
+      text-align: center;
+    }
+    .content {
+      width: 95%;
+      margin-left: 2.5%;
+      // height: ;
+      // height: 40rpx;
+      max-height: calc(60vh - 60rpx - 160rpx - 20rpx);
+      line-height: 40rpx;
+      overflow: hidden;
+      overflow-y: scroll;
+      text-align: center;
+    }
+    .btns {
+      width: 100%;
+      display: flex;
+      // justify-items: center;
+      // align-items: center;
+      justify-content: center;
+      margin-top: 30rpx;
+      box-shadow: 0 -1rpx 0 0 #dbdbdb;
+      view {
+        width: 50%;
+        height: 100rpx;
+        line-height: 100rpx;
+        text-align: center;
+      }
+      view:nth-child(1) {
+        color: #7e7e7e;
+        box-shadow: 0 0 2rpx 0 #dbdbdb;
+      }
+      view:nth-child(2) {
+        color: green;
+      }
+      .confirm {
+        box-shadow: 0 0 0 0 #dbdbdb;
+        color: green;
+      }
+    }
+  }
+}
