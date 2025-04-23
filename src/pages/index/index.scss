@@ -1,0 +1,65 @@
+page {
+  background: #f9fafb;
+}
+.qrCodeView {
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qrCodeView .qrcodeContent {
+  width: 80%;
+  height: 600rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
+
+.qrCodeView .qrcodeContent .titles {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.qrCodeView .qrcodeContent .qrBody {
+  width: 300rpx;
+  height: 300rpx;
+  margin-top: 30rpx;
+  margin-left: 115rpx;
+}
+
+.qrCodeView .qrcodeContent .btns {
+  width: 100%;
+  height: 80rpx;
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.qrCodeView .qrcodeContent .btns .btn {
+  width: 45%;
+  margin: auto;
+}
+
+.doctorListTitle {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  margin-top: 30rpx;
+  color: #7e7e7e;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.doctorListTitle .left {
+  margin-left: 2.5%;
+}
