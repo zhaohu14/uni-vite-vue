@@ -6,11 +6,6 @@
     </view>
     <!-- ============================ 功能模块 ============================ -->
     <functionCard></functionCard>
-    <!-- ============================ 医生列表区域 ============================ -->
-    <view class="doctorListTitle">
-      <uv-icon class="left" color="#3b82f6" name="list-dot" size="22"></uv-icon>
-      <view>医生列表</view>
-    </view>
     <!-- ============================ 展码区域 ============================ -->
     <view class="qrCodeView" v-if="showQrCodes">
       <view class="qrcodeContent">
@@ -61,7 +56,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('./index.scss');
+@import url('./index.css');
 
 
 </style>

@@ -1,0 +1,30 @@
+page {
+  background: #f9fafb;
+}
+.container {
+  min-height: 100vh;
+  background: #f9fafb;
+}
+.icon {
+  margin-left: 2.5%;
+  margin-right: 10rpx;
+}
+.titles {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.list {
+  width: 100%;
+  background: #fff;
+}
+
+.listContent {
+  width: 95%;
+  margin-left: 2.5;
+}
